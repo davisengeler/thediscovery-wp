@@ -127,7 +127,7 @@
 												<article>
 												<a href="<?php the_permalink(); ?>" class="image"><img src="<?php bloginfo('template_directory');?>/images/episode01.jpg" alt="" /></a>
 												<h3 class="major"><?php the_title(); ?></h3>
-												<p>Consider this the pilot episode for The Discovery. If there is a decent response, there will be much more to come.</p>
+												<p><?php the_excerpt(); ?></p>
 												<a href="<?php the_permalink(); ?>" class="special">More information</a>
 												</article>
 											<?php endif; ?>
