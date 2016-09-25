@@ -28,7 +28,7 @@
 					<header id="header">
 						<h1><a href="/" alt="The Discovery"><?php echo THE_DISCOVERY; ?></a></h1>
 						<nav>
-							<a href="#menu">Menu</a>
+							<!-- <a href="#menu">Menu</a> -->
 						</nav>
 					</header>
 
@@ -52,7 +52,7 @@
 						<header>
 							<div class="inner">
 								<h2><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_title(); endwhile; endif; ?><font style="font-size: .5em;" color="gray">(episode I)</font></h2>
-								<p>Consider this the pilot episode for <b>The Disc<i class="demo-icon icon-eye" style="margin: 0 -1.1em 0 -.25em;"><font style="color:transparent;">o</font></i>very</b></p>
+								<p>Consider this the pilot episode for <b><?php echo THE_DISCOVERY; ?></b></p>
 							</div>
 						</header>
 
