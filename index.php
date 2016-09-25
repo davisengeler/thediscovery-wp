@@ -1,4 +1,4 @@
 <?php
-    include("database.php");
+    include("thediscovery-config.php");
 ?>
 

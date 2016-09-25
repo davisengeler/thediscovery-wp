@@ -1,3 +1,5 @@
+<?php include("thediscovery-config.php"); ?>
+
 <section id="footer">
 	<div class="inner">
 		<h2 class="major">Get in touch</h2>
@@ -34,7 +36,7 @@
 			<li class="fa-instagram"><a href="http://instagram.com/DiscoveryXLR"><b>instagram.com/</b>DiscoveryXLR</a></li>
 		</ul>
 		<ul class="copyright">
-			<li>&copy; <?php echo date('Y'); ?> Davis Engeler. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a> and <a href="http://engeler.cc">Davis Engeler</a></li>
+			<li>&copy; <?php echo YEAR ?> Davis Engeler. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a> and <a href="http://engeler.cc">Davis Engeler</a></li>
 		</ul>
 	</div>
 </section>

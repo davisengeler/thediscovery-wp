@@ -1,4 +1,4 @@
-<?php include("database.php"); ?>
+<?php include("thediscovery-config.php"); ?>
 
 <script>
     function love($song) {

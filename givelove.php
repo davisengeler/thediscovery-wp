@@ -1,5 +1,5 @@
 <?php  
-    include("database.php");
+    include("thediscovery-config.php");
     
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $songID = $_POST['songID'];
@@ -18,7 +18,7 @@
         }
         mysqli_query($con, "UPDATE songs SET loves=loves+" . $voteValue . " WHERE songID=$songID;");
     } else {
-        header("Location: http://discovery.engeler.cc"); /* Redirect browser */
+        header("Location: " . get_home_url()); /* Redirect browser */
         exit();
     }
 ?>
