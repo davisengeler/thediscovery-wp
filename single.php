@@ -59,14 +59,7 @@
 						<!-- Content -->
 							<div class="wrapper">
 								<div class="inner">
-									<h1 class="major">Stream the full episode</h3>
-
-									<p><span class="image fit"><img src="<?php bloginfo('template_directory');?>/images/e01-banner.jpg" alt="The Discovery - Episode 01 - Pilot"></span></p>
-
-									<center><iframe style="margin-top: -37px;"width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FDiscoveryXLR%2Fthe-discovery-episode-01-pilot%2F&hide_cover=1&hide_artwork=1&autoplay=0" frameborder="0"></iframe></center>
-
-									<br />
-
+									
 									<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
 
 									<h3 class="major">More of <?php echo THE_DISCOVERY; ?></h3>
