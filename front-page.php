@@ -129,7 +129,7 @@
 												<article>
 												<a href="<?php the_permalink(); ?>" class="image"><img src="<?php bloginfo('template_directory');?>/images/episode01.jpg" alt="" /></a>
 												<a href="<?php the_permalink(); ?>"><h3 class="major"><?php echo get_the_title() . " <font style=\"font-size: .7em;\" color=\"gray\">(episode " . roman_numeral(get_post_meta($post->ID, 'episode', true)) . ")</font>"; ?></h3></a>
-												<p><?php the_excerpt(); ?></p>
+												<p><?php echo get_the_excerpt(); ?></p>
 												<a href="<?php the_permalink(); ?>" class="special">More information</a>
 												</article>
 											<?php endif; ?>
