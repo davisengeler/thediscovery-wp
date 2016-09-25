@@ -5,7 +5,7 @@
 		<h2 class="major">Get in touch</h2>
 		<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
 
-		<?php echo do_shortcode("[contact-form-7 id='78' title='Contact form 1']"); ?>
+		<?php echo do_shortcode("[contact-form-7 title='Footer Contact']"); ?>
 
 		<!-- <form method="post" action="contact.php">
 			<div class="field">
