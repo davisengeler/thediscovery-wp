@@ -10,7 +10,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Solid State by HTML5 UP</title>
+		<title><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_title(); endwhile; endif; ?> – The Discovery on XLR</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=.5" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -26,7 +26,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="/" alt="The Discovery">The Disc<i class="demo-icon icon-eye" style="margin: 0 -1.1em 0 -.25em;"><font style="color:transparent;">o</font></i>very</a></h1>
+						<h1><a href="/" alt="The Discovery"><?php echo THE_DISCOVERY; ?></a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -51,7 +51,7 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_title(); endwhile; endif; ?> <font style="font-size: .5em;" color="gray">(episode I)</font></h2>
+								<h2><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_title(); endwhile; endif; ?><font style="font-size: .5em;" color="gray">(episode I)</font></h2>
 								<p>Consider this the pilot episode for <b>The Disc<i class="demo-icon icon-eye" style="margin: 0 -1.1em 0 -.25em;"><font style="color:transparent;">o</font></i>very</b></p>
 							</div>
 						</header>
@@ -69,8 +69,8 @@
 
 									<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
 
-									<h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<h3 class="major">More of <?php echo THE_DISCOVERY; ?></h3>
+									<p>Check out more content that The Discovery has to offer.</p>
 
 									<section class="features">
 										<article>

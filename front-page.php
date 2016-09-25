@@ -33,7 +33,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><a href="/" alt="The Discovery">The Disc<i class="demo-icon icon-eye" style="margin: 0 -1.1em 0 -.25em;"><font style="color:transparent;">o</font></i>very</a></h1>
+						<h1><a href="/" alt="The Discovery"><?php echo THE_DISCOVERY; ?></a></h1>
 <!--
 						<nav>
 							<a href="#menu">Menu</a>
