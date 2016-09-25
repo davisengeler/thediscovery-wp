@@ -30,7 +30,7 @@
 				Greenwood, SC 29649
 			</li>
 			<!-- <li class="fa-phone">(000) 000-0000</li> -->
-			<li class="fa-envelope"><a href="#"><b>discovery</b>@xlr1.org</a></li>
+			<li class="fa-mixcloud"><a href="http://mixcloud.com/DiscoveryXLR"><b>mixcloud.com/</b>DiscoveryXLR</a></li>
 			<!-- <li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> -->
 			<li class="fa-facebook"><a href="http://facebook.com/DiscoveryXLR"><b>facebook.com/</b>DiscoveryXLR</a></li>
 			<li class="fa-instagram"><a href="http://instagram.com/DiscoveryXLR"><b>instagram.com/</b>DiscoveryXLR</a></li>
