@@ -1,5 +1,6 @@
 <?php 
     include("thediscovery-config.php"); 
+    include("roman-numeral.php");
 ?>
 
 <!DOCTYPE HTML>
@@ -51,15 +52,15 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_title(); endwhile; endif; ?><font style="font-size: .5em;" color="gray">(episode I)</font></h2>
-								<p>Consider this the pilot episode for <b><?php echo THE_DISCOVERY; ?></b></p>
+								<h2><?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_title(); endwhile; endif; ?><font style="font-size: .5em;" color="gray">(episode <?php echo roman_numeral(get_post_meta($post->ID, 'episode', true)); ?>)</font></h2>
+								<p><?php echo get_post_meta($post->ID, 'tagline', true); ?></p>
 							</div>
 						</header>
 
 						<!-- Content -->
 							<div class="wrapper">
 								<div class="inner">
-									
+
 									<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
 
 									<h3 class="major">More of <?php echo THE_DISCOVERY; ?></h3>

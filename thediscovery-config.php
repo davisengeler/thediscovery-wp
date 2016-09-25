@@ -18,5 +18,5 @@
 	define(YEAR, date('Y'));
 
 	// Branded version of "THE DISCOVERY" (with icon)
-	define (THE_DISCOVERY, "<font style=\"white-space: nowrap;\">The Disc<i class=\"demo-icon icon-eye\" style=\"margin: 0 -1.1em 0 -.25em;\"><font style=\"color:transparent;\">o</font></i>very</font>");
+	define(THE_DISCOVERY, "<font style=\"white-space: nowrap;\">The Disc<i class=\"demo-icon icon-eye\" style=\"margin: 0 -1.1em 0 -.25em;\"><font style=\"color:transparent;\">o</font></i>very</font>");
 ?>
