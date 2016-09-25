@@ -1,5 +1,3 @@
-<?php include("roman-numeral.php"); ?>
-
 <!DOCTYPE HTML>
 <!--
 	Solid State by HTML5 UP
@@ -127,7 +125,7 @@
 										<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 											<?php if ( in_category( '2' ) ) : ?>
 												<article>
-												<a href="<?php the_permalink(); ?>" class="image"><img src="<?php bloginfo('template_directory');?>/images/episode01.jpg" alt="" /></a>
+												<a href="<?php the_permalink(); ?>" class="image"><img src="<?php the_post_thumbnail_url(); ?>" alt="" /></a>
 												<a href="<?php the_permalink(); ?>"><h3 class="major"><?php echo get_the_title() . " <font style=\"font-size: .7em;\" color=\"gray\">(episode " . roman_numeral(get_post_meta($post->ID, 'episode', true)) . ")</font>"; ?></h3></a>
 												<p><?php echo get_the_excerpt(); ?></p>
 												<a href="<?php the_permalink(); ?>" class="special">More information</a>

@@ -1,6 +1,5 @@
 <?php 
-    include("thediscovery-config.php"); 
-    include("roman-numeral.php");
+    include("thediscovery-config.php");
 ?>
 
 <!DOCTYPE HTML>
