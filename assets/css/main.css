@@ -1789,7 +1789,7 @@
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			padding-bottom: 1em;
+			padding: 1em 0 1em 0;
 			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 		}
 
@@ -3613,6 +3613,36 @@
 			width: calc(50% - 1.5em);
 		}
 
+		#footer .inner .wpcf7 {
+			margin: 0 3em 0 0;
+			width: calc(50% - 1.5em);
+		}
+
+		#footer .inner .wpcf7 form {
+			width: 100%;
+		}
+
+		.screen-reader-response {
+			display:none;
+		}
+
+		.wpcf7-mail-sent-ok {
+			font-weight: bold;
+			color: green;
+		}
+
+		.wpcf7-validation-errors {
+			font-weight: bold;
+			color: red;
+			font-size: 12pt;
+		}
+
+		.wpcf7-not-valid-tip {
+			font-weight: bold;
+			color: red;
+			font-size: 9pt;
+		}
+
 		#footer .inner .contact {
 			width: calc(50% - 1.5em);
 		}
@@ -3677,6 +3707,19 @@
 					margin: 0 0 4em 0;
 				}
 
+				#footer .inner .wpcf7 {
+					width: 100%;
+					margin: 0 0 4em 0;
+				}
+
+				#footer .inner .wpcf7 form {
+					width: 100%;
+				}
+
+				#footer input.wpcf7-form-control.wpcf7-submit {
+					width: 100%;
+				}
+
 				#footer .inner .contact {
 					width: 100%;
 					margin: 0 0 4em 0;
@@ -3700,6 +3743,10 @@
 			}
 
 				#footer .inner form {
+					margin: 0 0 3em 0;
+				}
+
+				#footer .inner .wpcf7 {
 					margin: 0 0 3em 0;
 				}
 
