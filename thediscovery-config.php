@@ -1,6 +1,6 @@
 <?php
 	require_once("wp-config.php");
-
+	
 	// Reset time on the cookie storing the likes
     if (!isset($_COOKIE["loves"])) {
         setcookie("loves", serialize(array(0)), time() + (86400 * 30), "/");

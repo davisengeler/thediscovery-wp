@@ -1,5 +1,3 @@
-<?php include("thediscovery-config.php"); ?>
-
 <section id="footer">
 	<div class="inner">
 		<h2 class="major">Get in touch</h2>

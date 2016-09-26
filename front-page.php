@@ -1,3 +1,5 @@
+<?php include("thediscovery-config.php"); ?>
+
 <!DOCTYPE HTML>
 <!--
 	Solid State by HTML5 UP
@@ -25,6 +27,7 @@
 				width: 100%;
 			}
 		</style>
+		<?php include("analyticstracking.php") ?>
 	</head>
 	<body>
 
