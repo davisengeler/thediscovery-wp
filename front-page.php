@@ -122,7 +122,7 @@
 									<h2 class="major">Full Episodes</h2>
 									<p>Listen to full episodes of The Discovery and get more involved with the show. Here you can view the track list for each episode, vote on your favorites, request new music or topics, and more.</p>
 									<section class="features">
-										<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+										<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 											<?php if ( in_category( '2' ) ) : ?>
 												<article>
 												<a href="<?php the_permalink(); ?>" class="image"><img src="<?php the_post_thumbnail_url(); ?>" alt="" /></a>
@@ -131,11 +131,12 @@
 												<a href="<?php the_permalink(); ?>" class="special">More information</a>
 												</article>
 											<?php endif; ?>
-										<?php endwhile; endif; ?>
+										<?php endwhile; endif; ?> -->
+										<span class="image fit"><img src="<?php bloginfo('template_directory');?>/images/coming-soon.png" /></span>
 									</section>
-									<ul class="actions">
+									<!-- <ul class="actions">
 										<li><a href="episodes" class="button">Browse All</a></li>
-									</ul>
+									</ul> -->
 								</div>
 							</section>
 
