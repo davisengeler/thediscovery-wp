@@ -15,6 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=.5" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/main.css" />
+		<meta property="og:image" content="<?php the_post_thumbnail_url(); ?>" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
