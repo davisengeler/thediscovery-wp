@@ -87,7 +87,8 @@
 										<h2 class="major"><font color="grey">Enter</font> The Disc<i class="demo-icon icon-eye" style="margin: 0 -1.1em 0 -.25em;"><font style="color:transparent;">o</font></i>very</h2>
                                         <p>
                                         Welcome to <b>The Discovery</b>, a brand new show on <i><b>XLR</b> - Lander University Radio</i>. Let's dig a little deeper into different musical genres and thought provoking topics. Let's refuel our curiosity. Let's spark our curiosity and open our minds to work, think, and expand. Get ready for your new soundtrack of discovery.</p>
-										<a href="episodes" class="special">View Episodes</a>
+										<!-- <a href="episodes" class="special">View Episodes</a> -->
+										<a href="#" class="special">View Episodes (coming Wed, Sep 27th, 2016)</a>
 									</div>
 								</div>
 							</section>
