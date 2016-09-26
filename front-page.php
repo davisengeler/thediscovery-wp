@@ -86,8 +86,8 @@
 									<div class="content">
 										<h2 class="major"><font color="grey">Enter</font> The Disc<i class="demo-icon icon-eye" style="margin: 0 -1.1em 0 -.25em;"><font style="color:transparent;">o</font></i>very</h2>
                                         <p>
-                                        Welcome to <b>The Discovery</b>, a brand new show on <i><b>XLR</b> - Lander University Radio</i>. We will dig a little deeper into different musical genres and thought provoking topics, all in attempt to refuel our curiosity. Spark your curiosity and open your mind to work, think, and expand. This is <b>The Discovery</b>. </p>
-										<a href="#" class="special">Learn more</a>
+                                        Welcome to <b>The Discovery</b>, a brand new show on <i><b>XLR</b> - Lander University Radio</i>. Let's dig a little deeper into different musical genres and thought provoking topics. Let's refuel our curiosity. Let's spark our curiosity and open our minds to work, think, and expand. Get ready for your new soundtrack of discovery.</p>
+										<a href="#" class="special">View Episodes</a>
 									</div>
 								</div>
 							</section>
@@ -110,8 +110,8 @@
 									<a href="#" class="image"><img src="<?php bloginfo('template_directory');?>/images/davis-engeler.jpg" alt="Picture of Davis Engeler" /></a>
 									<div class="content">
 										<h2 class="major"><font color="grey">Davis</font> Engeler</h2>
-										<p>Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras turpis ante, nullam sit amet turpis non, sollicitudin posuere urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla cursus.</p>
-										<a href="#" class="special">Learn more</a>
+										<p>Hello there! My name is Davis Engeler and I'm going to tag along as your host for <b>The Discovery</b>. I have been interested in topics relating to computer science for about ten years now. I decided to pursue the field at the University of South Carolina Upstate and recently graduated with a <i>B.S. in Computer Science</i>. Along the way, I built a love and appreciation for math and other sciences, and am on schedule to finish my <i>B.S. in Mathematics</i> from the same university in 2017. These interests and topics have changed the way I think about everything, especially music. My friends and I have come across different artists and subgenres that seem to be conducive to cognition. I'm excited to share thoughts and interesting finds with you guys!</p>
+										<a href="#" class="special">More About The Host</a>
 									</div>
 								</div>
 							</section>
