@@ -76,7 +76,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image">
+									<a href="episodes" class="image">
 										<!-- <img class="under" src="images/thediscovery.gif" alt="" />
 										<img class="over" src="images/thediscovery.png" alt="" /> -->
 										<div id="image1"> <img src="<?php bloginfo('template_directory');?>/images/thediscovery.png"></div>
@@ -87,7 +87,7 @@
 										<h2 class="major"><font color="grey">Enter</font> The Disc<i class="demo-icon icon-eye" style="margin: 0 -1.1em 0 -.25em;"><font style="color:transparent;">o</font></i>very</h2>
                                         <p>
                                         Welcome to <b>The Discovery</b>, a brand new show on <i><b>XLR</b> - Lander University Radio</i>. Let's dig a little deeper into different musical genres and thought provoking topics. Let's refuel our curiosity. Let's spark our curiosity and open our minds to work, think, and expand. Get ready for your new soundtrack of discovery.</p>
-										<a href="#" class="special">View Episodes</a>
+										<a href="episodes" class="special">View Episodes</a>
 									</div>
 								</div>
 							</section>
@@ -95,11 +95,11 @@
                         <!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="<?php bloginfo('template_directory');?>/images/xlr.jpg" alt="" /></a>
+									<a href="http://xlr1.org" target='_blank' class="image"><img src="<?php bloginfo('template_directory');?>/images/xlr.jpg" alt="" /></a>
 									<div class="content">
 										<h2 class="major">XLR <font color="grey">– Lander University Radio</font></h2>
 										<p>The award-winning student-run radio station of Lander Univeristy in Greenwood, SC, playing an eclectic variety of independent music both old and new. <b>XLR</b> educates students, breaks ground in musical programming, and provides cutting-edge cultural coverage through speciality shows all day, year round. Check it out!</p>
-										<a href="#" class="special">Listen for free</a>
+										<a href="http://xlr1.org" target='_blank' class="special">Listen for free</a>
 									</div>
 								</div>
 							</section>
@@ -107,11 +107,11 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="<?php bloginfo('template_directory');?>/images/davis-engeler.jpg" alt="Picture of Davis Engeler" /></a>
+									<a href="http://engeler.cc" target='_blank' class="image"><img src="<?php bloginfo('template_directory');?>/images/davis-engeler.jpg" alt="Picture of Davis Engeler" /></a>
 									<div class="content">
 										<h2 class="major"><font color="grey">Davis</font> Engeler</h2>
 										<p>Hello there! My name is Davis Engeler and I'm going to tag along as your host for <b>The Discovery</b>. I have been interested in topics relating to computer science for about ten years now. I decided to pursue the field at the University of South Carolina Upstate and recently graduated with a <i>B.S. in Computer Science</i>. Along the way, I built a love and appreciation for math and other sciences, and am on schedule to finish my <i>B.S. in Mathematics</i> from the same university in 2017. These interests and topics have changed the way I think about everything, especially music. My friends and I have come across different artists and subgenres that seem to be conducive to cognition and I'm super excited to share some thoughts and interesting finds with you guys!</p>
-										<a href="#" class="special">More About The Host</a>
+										<a href="http://engeler.cc" target='_blank' class="special">More About The Host</a>
 									</div>
 								</div>
 							</section>
@@ -134,7 +134,7 @@
 										<?php endwhile; endif; ?>
 									</section>
 									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
+										<li><a href="episodes" class="button">Browse All</a></li>
 									</ul>
 								</div>
 							</section>

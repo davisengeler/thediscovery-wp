@@ -35,13 +35,13 @@
 				Greenwood, SC 29649<br />
 			</li>
 			<!-- <li class="fa-phone">(000) 000-0000</li> -->
-			<li class="fa-mixcloud"><a href="http://mixcloud.com/DiscoveryXLR"><b>mixcloud.com/</b>DiscoveryXLR</a></li>
+			<li class="fa-mixcloud"><a href="http://mixcloud.com/DiscoveryXLR" target='_blank'><b>mixcloud.com/</b>DiscoveryXLR</a></li>
 			<!-- <li class="fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> -->
-			<li class="fa-facebook"><a href="http://facebook.com/DiscoveryXLR"><b>facebook.com/</b>DiscoveryXLR</a></li>
-			<li class="fa-instagram"><a href="http://instagram.com/DiscoveryXLR"><b>instagram.com/</b>DiscoveryXLR</a></li>
+			<li class="fa-facebook"><a href="http://facebook.com/DiscoveryXLR" target='_blank'><b>facebook.com/</b>DiscoveryXLR</a></li>
+			<li class="fa-instagram"><a href="http://instagram.com/DiscoveryXLR" target='_blank'><b>instagram.com/</b>DiscoveryXLR</a></li>
 		</ul>
 		<ul class="copyright">
-			<li>&copy; <?php echo YEAR ?> <a href="http://engeler.cc">Davis Engeler</a>. All rights reserved.</li><li>Design and Development by <a href="http://html5up.net">HTML5 UP</a> and <a href="http://engeler.cc">Davis Engeler</a></li>
+			<li>&copy; <?php echo YEAR ?> <a href="http://engeler.cc">Davis Engeler</a>. All rights reserved.</li><li>Design and Development by <a href="http://html5up.net" target='_blank'>HTML5 UP</a> and <a href="http://engeler.cc" target='_blank'>Davis Engeler</a></li>
 		</ul>
 	</div>
 </section>
