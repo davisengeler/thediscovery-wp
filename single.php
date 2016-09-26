@@ -19,6 +19,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<?php include("analyticstracking.php") ?>
 	</head>
 	<body style="background-image: url('<?php bloginfo('template_directory');?>/images/e01-bg.jpg');background-size: cover;">
 
