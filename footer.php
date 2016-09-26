@@ -41,7 +41,7 @@
 			<li class="fa-instagram"><a href="http://instagram.com/DiscoveryXLR" target='_blank'><b>instagram.com/</b>DiscoveryXLR</a></li>
 		</ul>
 		<ul class="copyright">
-			<li>&copy; <?php echo YEAR ?> <a href="http://engeler.cc">Davis Engeler</a>. All rights reserved.</li><li>Design and Development by <a href="http://html5up.net" target='_blank'>HTML5 UP</a> and <a href="http://engeler.cc" target='_blank'>Davis Engeler</a></li>
+			<li>&copy; <?php echo YEAR ?> <a href="http://engeler.cc" target='_blank'>Davis Engeler</a>. All rights reserved.</li><li>Design and Development by <a href="http://html5up.net" target='_blank'>HTML5 UP</a> and <a href="http://engeler.cc" target='_blank'>Davis Engeler</a></li>
 		</ul>
 	</div>
 </section>
