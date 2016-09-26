@@ -3,7 +3,7 @@
 <section id="footer">
 	<div class="inner">
 		<h2 class="major">Get in touch</h2>
-		<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+		<p>If you have any questions, comments, suggestions, or just want to get more involved with the show, <i>do it</i>! Let's work together to make The Discovery as great as it can be. Stay connected with the show on Mixcloud, Facebook, and Instagram, or send your thoughts directly using the form below. <i style="color:gray;">If you want to tell me which songs you like, check out the track list for <a href="#" style="color:gray;">the episode</a>. Click the "Love" button next to the songs you enjoyed so the show can evolve to your tastes!</i></p>
 
 		<?php echo do_shortcode("[contact-form-7 title='Footer Contact']"); ?>
 
@@ -28,9 +28,9 @@
 		<ul class="contact">
 			<li></li>
 			<li class="fa-home">
-				<b>The Discovery</b><br />
+				<b>THE DISCOVERY</b><br />
 				XLR – Lander University Radio<br />
-				Greenwood, SC 29649
+				Greenwood, SC 29649<br />
 			</li>
 			<!-- <li class="fa-phone">(000) 000-0000</li> -->
 			<li class="fa-mixcloud"><a href="http://mixcloud.com/DiscoveryXLR"><b>mixcloud.com/</b>DiscoveryXLR</a></li>
