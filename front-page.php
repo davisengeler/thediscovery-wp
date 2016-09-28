@@ -91,7 +91,7 @@
                                         <p>
                                         Welcome to <b>The Discovery</b>, a brand new show on <i><b>XLR</b> - Lander University Radio</i>. Let's dig a little deeper into different musical genres and thought provoking topics. Let's refuel our curiosity. Let's spark our curiosity and open our minds to work, think, and expand. The show airs <b>Wednesdays at 5pm</b> on XLR. Get ready for your new soundtrack of discovery.</p>
 										<!-- <a href="episodes" class="special">View Episodes</a> -->
-										<a href="#" class="special">View Episodes <font color="gray">(coming Sep 28)</font></a>
+										<a href="#" class="special">View Episodes <font color="gray">(coming later today)</font></a>
 									</div>
 								</div>
 							</section>
