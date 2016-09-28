@@ -64,10 +64,12 @@
 
 									<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
 
-									<h3 class="major">More of <?php echo THE_DISCOVERY; ?></h3>
-									<p>Check out more content that The Discovery has to offer.</p>
+									<h3 class="major">More episodes of <?php echo THE_DISCOVERY; ?> are coming...</h3>
+									<p>The show airs on <a href="http://xlr1.org/" target="_blank">XLR – Lander University Radio</a> <b>Wednesdays at 5pm</b>. Check <a href="/">this website</a>, <a href="http://facebook.com/DiscoveryXLR" target="_blank">Facebook</a>, or <a href="#links">other social media</a> for more information on upcoming episodes.</p>
 
-									<section class="features">
+									<br /><br /><br />
+
+									<!-- <section class="features">
 										<article>
 											<a href="#" class="image"><img src="<?php bloginfo('template_directory');?>/images/pic04.jpg" alt="" /></a>
 											<h3 class="major">Sed feugiat lorem</h3>
@@ -80,7 +82,7 @@
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
-									</section>
+									</section> -->
 
 								</div>
 							</div>

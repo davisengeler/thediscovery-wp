@@ -79,7 +79,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="episodes" class="image">
+									<a href="the-pilot" class="image">
 										<!-- <img class="under" src="images/thediscovery.gif" alt="" />
 										<img class="over" src="images/thediscovery.png" alt="" /> -->
 										<div id="image1"> <img src="<?php bloginfo('template_directory');?>/images/thediscovery.png"></div>
@@ -91,7 +91,7 @@
                                         <p>
                                         Welcome to <b>The Discovery</b>, a brand new show on <i><b>XLR</b> - Lander University Radio</i>. Let's dig a little deeper into different musical genres and thought provoking topics. Let's refuel our curiosity. Let's spark our curiosity and open our minds to work, think, and expand. The show airs <b>Wednesdays at 5pm</b> on XLR. Get ready for your new soundtrack of discovery.</p>
 										<!-- <a href="episodes" class="special">View Episodes</a> -->
-										<a href="#" class="special">View Episodes <font color="gray">(coming later today)</font></a>
+										<a href="the-pilot" class="special">View Episodes</a>
 									</div>
 								</div>
 							</section>
@@ -126,7 +126,7 @@
 									<h2 class="major">Full Episodes</h2>
 									<p>Listen to full episodes of The Discovery and get more involved with the show. Here you can view the track list for each episode, vote on your favorites, request new music or topics, and more.</p>
 									<section class="features">
-										<!-- <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+										<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 											<?php if ( in_category( '2' ) ) : ?>
 												<article>
 												<a href="<?php the_permalink(); ?>" class="image"><img src="<?php the_post_thumbnail_url(); ?>" alt="" /></a>
@@ -135,12 +135,11 @@
 												<a href="<?php the_permalink(); ?>" class="special">More information</a>
 												</article>
 											<?php endif; ?>
-										<?php endwhile; endif; ?> -->
-										<span class="image fit"><img src="<?php bloginfo('template_directory');?>/images/coming-soon.png" /></span>
+										<?php endwhile; endif; ?>
 									</section>
-									<!-- <ul class="actions">
-										<li><a href="episodes" class="button">Browse All</a></li>
-									</ul> -->
+									<ul class="actions">
+										<li><a href="the-pilot" class="button">Browse All</a></li>
+									</ul>
 								</div>
 							</section>
 

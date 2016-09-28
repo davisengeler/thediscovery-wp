@@ -25,7 +25,7 @@
 			</ul>
 		</form> -->
 
-		<ul class="contact">
+		<ul class="contact" id="links">
 			<li></li>
 			<li class="fa-home">
 				<b>THE DISCOVERY</b><br />
