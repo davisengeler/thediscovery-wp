@@ -79,7 +79,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="the-pilot" class="image">
+									<a href="/the-pilot" class="image">
 										<!-- <img class="under" src="images/thediscovery.gif" alt="" />
 										<img class="over" src="images/thediscovery.png" alt="" /> -->
 										<div id="image1"> <img src="<?php bloginfo('template_directory');?>/images/thediscovery.png"></div>
@@ -91,7 +91,7 @@
                                         <p>
                                         Welcome to <b>The Discovery</b>, a brand new show on <i><b>XLR</b> - Lander University Radio</i>. Let's dig a little deeper into different musical genres and thought provoking topics. Let's refuel our curiosity. Let's spark our curiosity and open our minds to work, think, and expand. The show airs <b>Wednesdays at 5pm</b> on XLR. Get ready for your new soundtrack of discovery.</p>
 										<!-- <a href="episodes" class="special">View Episodes</a> -->
-										<a href="the-pilot" class="special">View Episodes</a>
+										<a href="/the-pilot" class="special">View Episodes</a>
 									</div>
 								</div>
 							</section>
@@ -138,7 +138,7 @@
 										<?php endwhile; endif; ?>
 									</section>
 									<ul class="actions">
-										<li><a href="the-pilot" class="button">Browse All</a></li>
+										<li><a href="/the-pilot" class="button">Browse All</a></li>
 									</ul>
 								</div>
 							</section>

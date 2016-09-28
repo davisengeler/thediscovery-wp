@@ -3,7 +3,7 @@
 		<h2 class="major">Get in touch</h2>
 		<p>If you have any questions, comments, suggestions, or just want to get more involved with the show, <i>do it</i>! Let's work together to make The Discovery as great as it can be. Stay connected with the show on Mixcloud, Facebook, and Instagram, or send your thoughts directly using the form below. 
 		<br />
-		<font style="color:gray; font-size: .9em; line-height: 2em;">If you want to tell me which songs you like, use the "LOVE" button next to the songs for <a href="the-pilot" style="color:gray;">the episode</a>. I'll use this to evolve to your tastes!</font></p>
+		<font style="color:gray; font-size: .9em; line-height: 2em;">If you want to tell me which songs you like, use the "LOVE" button next to the songs for <a href="/the-pilot" style="color:gray;">the episode</a>. I'll use this to evolve to your tastes!</font></p>
 
 		<?php echo do_shortcode("[contact-form-7 title='Footer Contact']"); ?>
 
