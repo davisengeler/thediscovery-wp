@@ -65,7 +65,7 @@
 									<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); the_content(); endwhile; endif; ?>
 
 									<h3 class="major">More episodes of <?php echo THE_DISCOVERY; ?> are coming...</h3>
-									<p>The show airs on <a href="http://xlr1.org/" target="_blank">XLR – Lander University Radio</a> <b>Wednesdays at 5pm</b>. Check <a href="/">this website</a>, <a href="http://facebook.com/DiscoveryXLR" target="_blank">Facebook</a>, or <a href="#links">other social media</a> for more information on upcoming episodes.</p>
+									<p>The show airs on <i><a href="http://xlr1.org/" target="_blank"><b>XLR</b> – Lander University Radio</a></i> every <b>Wednesday at 5pm</b>. Check back here, on <a href="http://facebook.com/DiscoveryXLR" target="_blank">Facebook</a>, or any other <a href="#links">social media</a> account for The Discovery for information on upcoming episodes.</p>
 
 									<br /><br /><br />
 
