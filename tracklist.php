@@ -14,6 +14,25 @@
     }
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){
+	var lastPreview = nav_audio;
+    $(".song").click(
+    	function(){
+	    	var audio = "#" + $(this).attr("id") + "_preview";
+	    	var preview = $(audio)[0];
+	    	preview.paused ? preview.play() : preview.pause();
+	    	lastPreview.load();
+	    	lastPreview = preview;
+        });
+});
+</script>
+
+<audio id="nav_audio">
+    <source src="<?php bloginfo('template_directory');?>/test audio.mp3" type="audio/mpeg"></source>
+    <source src="<?php bloginfo('template_directory');?>/test audio.ogg" type="audio/ogg"></source>
+</audio>
+
 <style>
     a.icon {
         border-bottom: none;
@@ -47,8 +66,14 @@
                     $appleMusic = isset($song['appleMusic']) ? $song['appleMusic'] : false;
                     $youtube = isset($song['youtube']) ? $song['youtube'] : false;
                     $download = isset($song['download']) ? $song['download'] : false;
+                    $fullName = $song['artist'] . " - " .$song['name'];
+                    $fileLocation = get_template_directory_uri() . "/" . $fullName;
                     echo '
-                        <tr>
+                        <tr id="' . $song['songID'] . '" class="song">
+                        	<audio id="' . $song['songID'] . '_preview">
+							    <source src="' . $fileLocation . '.mp3" type="audio/mpeg"></source>
+							    <source src="' . $fileLocation . '.ogg" type="audio/ogg"></source>
+							</audio>
 							<td><i class="fa fa-music" aria-hidden="true"></i></td>
 							<td><b>' . $song['name'] . '</b></td>
 							<td><a target="blank" href="' . $song['artistLink'] . '">' . $song['artist'] . '</a></td>
