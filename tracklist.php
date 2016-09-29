@@ -21,8 +21,12 @@ $(document).ready(function(){
     	function(){
 	    	var audio = "#" + $(this).attr("id") + "_preview";
 	    	var preview = $(audio)[0];
-	    	preview.paused ? preview.play() : preview.pause();
-	    	lastPreview.load();
+	    	if (preview == lastPreview) 
+	    		preview.paused ? preview.play() : preview.pause();
+	    	else {
+	    		lastPreview.pause();
+	    		preview.play();
+	    	}
 	    	lastPreview = preview;
         });
 });
@@ -70,7 +74,7 @@ $(document).ready(function(){
                     $fileLocation = get_template_directory_uri() . "/" . $fullName;
                     echo '
                         <tr id="' . $song['songID'] . '" class="song">
-                        	<audio id="' . $song['songID'] . '_preview">
+                        	<audio loop id="' . $song['songID'] . '_preview">
 							    <source src="' . $fileLocation . '.mp3" type="audio/mpeg"></source>
 							    <source src="' . $fileLocation . '.ogg" type="audio/ogg"></source>
 							</audio>
