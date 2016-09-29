@@ -17,25 +17,38 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	var lastPreview = nav_audio;
+	var lastSongID = -1;
     $(".song").click(
     	function(){
 	    	var audio = "#" + $(this).attr("id") + "_preview";
 	    	var preview = $(audio)[0];
 	    	if (preview == lastPreview) 
-	    		preview.paused ? preview.play() : preview.pause();
+	    		if (preview.paused) {
+	    			preview.play();
+	    			$("i.preview-icon-" + $(this).attr("id")).removeClass("fa-play").addClass("fa-pause");
+	    		}
+	    		else {
+	    			preview.pause();
+	    			$("i.preview-icon-" + $(this).attr("id")).removeClass("fa-pause").addClass("fa-music");
+	    		}
 	    	else {
+	    		$("i.preview-icon-" + lastSongID).removeClass("fa-pause").addClass("fa-music");
+	    		$("i.preview-icon-" + $(this).attr("id")).removeClass("fa-play").addClass("fa-pause");
 	    		lastPreview.pause();
 	    		preview.play();
 	    	}
 	    	lastPreview = preview;
-        });
+	    	lastSongID = $(this).attr("id");
+    	});
+    $(".song").hover(
+    	function(){
+    		$(this).find('.love').toggleClass('hoverClass');
+    		// $("i.preview-icon-" + $(this).attr("id")).toggleClass('fa-music fa-play')
+    	})
 });
 </script>
 
-<audio id="nav_audio">
-    <source src="<?php bloginfo('template_directory');?>/test audio.mp3" type="audio/mpeg"></source>
-    <source src="<?php bloginfo('template_directory');?>/test audio.ogg" type="audio/ogg"></source>
-</audio>
+<audio id="nav_audio"></audio>
 
 <style>
     a.icon {
@@ -74,11 +87,11 @@ $(document).ready(function(){
                     $fileLocation = get_template_directory_uri() . "/" . $fullName;
                     echo '
                         <tr id="' . $song['songID'] . '" class="song">
-                        	<audio loop id="' . $song['songID'] . '_preview">
+                        	<audio loop id="' . $song['songID'] . '_preview" preload="none">
 							    <source src="' . $fileLocation . '.mp3" type="audio/mpeg"></source>
 							    <source src="' . $fileLocation . '.ogg" type="audio/ogg"></source>
 							</audio>
-							<td><i class="fa fa-music" aria-hidden="true"></i></td>
+							<td><i class="preview-icon-' . $song['songID'] . ' fa fa-music" aria-hidden="true"></i></td>
 							<td><b>' . $song['name'] . '</b></td>
 							<td><a target="blank" href="' . $song['artistLink'] . '">' . $song['artist'] . '</a></td>
 							<td>';
